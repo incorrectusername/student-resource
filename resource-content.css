@@ -1,0 +1,203 @@
+body{
+	position:relative;
+	overflow-x: hidden;
+	padding-top:100px;
+	}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.text-muted {
+  color: #777;
+}
+.text-primary,
+a {
+  color: #777;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+  outline: 0;
+}
+a.active,
+a:active,
+a:focus,
+a:hover {
+  color: #ff1a1a;
+}
+
+
+
+section {
+  padding: 30px 0px 35px 0px;
+  margin:0px;
+   outline:none;
+   vertical-align: top;
+   border-radius: 0 !important;
+}
+section.container{
+	  padding-left:35px;
+	  padding-right:35px;
+  }
+section h1.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+  section {
+    //padding: 10px 0px 50px 0px;
+	margin:0px;
+   outline:none;
+   vertical-align: top;
+   border-radius: 0 !important;
+  }
+  section.container{
+	  padding-left:50px;
+	  padding-right:50px;
+  }
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+sup{
+	text-transform:none;
+}
+section#xi-science{
+	background-color:#eee;
+}
+.button-class{
+	padding:40px 0px 0px 0px;
+}
+button.btn-primary{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*******************************/
+
+.navbar-default {
+  background-color: #404040;
+  border-color: transparent;
+  
+}
+.navbar-default .navbar-brand {
+  color: #ff1a1a;
+  font-family: "Roboto Slab",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+
+.navbar-default .navbar-brand{
+	  text-transform:uppercase;
+	  color:white;
+	  font-family:" Roboto Slab",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+  }
+ .navbar-default .navbar-brand {
+    color: white;
+} 
+  .navbar-default .navbar-brand:active span.cali,
+.navbar-default .navbar-brand:focus span.cali,
+.navbar-default .navbar-brand:hover span.cali{
+  color: #ff1a1a;
+}
+.navbar-default .navbar-brand:active span.brant,
+.navbar-default .navbar-brand:focus span.brant,
+.navbar-default .navbar-brand:hover span.brant{
+  color: white;
+}
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-default .navbar-toggle {
+  background-color: #ff1a1a;
+  border-color: #ff1a1a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #ff1a1a;
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #666666;
+    padding: 10px 0;
+	min-height:35px;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: none;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 2.55em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all 0.3s;
+	text-transform:uppercase;
+	  color:white;
+	margin-left:15px;
+	font-family: "Roboto Slab",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+  }
+ 
+  .navbar-default ul.nav li a {
+    font-family: "Roboto Slab",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+	font-size:20px;
+    letter-spacing: 2px;
+    color: white;
+}
+.navbar-default ul.nav li a:hover{
+	color:#ff1a1a;
+}
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+	background-color:#ff1a1a;
+	 color: white;
+  }
+  
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #ff1a1a;
+    background-color: #666666;
+}
+.page-header{
+	text-transform:uppercase;
+	font-family: "Roboto Slab",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:18px;	
+	margin: 0px 0 12px;
+	border-bottom: 1px solid #ff1a1a;
+}

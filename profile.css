@@ -1,0 +1,24 @@
+img#avatar{
+             width: 250px;
+            left: 0px;
+            margin: 0px auto;
+        }
+label{
+    float: left;
+}
+/*#upload{
+    left:0px;
+    margin:0px;
+    //float: left;
+}*/
+form#fileuploadform{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#upload{
+    width:250px;
+}
+div.radio >label {
+   display: block;
+}

@@ -1,0 +1,35 @@
+div{
+                display: block;
+                margin-bottom: 10px;
+            }
+            label{
+                margin-right: 15px;
+                width: 170px;
+            }
+            
+            label::after{
+                content: "*";
+                color:red;
+            }
+            input , textarea {
+                width:180px;
+            }
+            input[type="radio"] {
+                margin-top: -1px;
+                vertical-align: middle;   
+                margin:0;
+                position: relative;
+                
+            }
+            textarea:focus, input:focus {
+                border: 2px solid darkgrey;
+            
+            } 
+            div.floatright{
+                padding-left: 25px;
+                margin-left: 0;
+                
+            }
+            *{
+                clear:both;
+            }
